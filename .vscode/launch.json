@@ -19,11 +19,7 @@
       "name": "Launch ForumServiceWithSpringSecurity",
       "request": "launch",
       "mainClass": "telran.java2022.ForumServiceWithSpringSecurity",
-      "projectName": "java2022",
-      "env": {
-        "MONGODB_URI": "mongodb+srv://hiirsh:87v7GS9XtfhmKiV@clusterjava2022.xry6qdc.mongodb.net/telran?retryWrites=true&w=majority"
-      },
-      "console": "externalTerminal"
+      "projectName": "java2022"
     }
   ]
 }

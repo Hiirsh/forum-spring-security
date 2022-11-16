@@ -22,5 +22,4 @@ public class AuthorizationConfiguration {
         .anyRequest().authenticated();
     return http.build();
   }
-
 }
