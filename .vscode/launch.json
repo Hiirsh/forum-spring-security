@@ -1,0 +1,29 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}",
+      "env": {
+        "MONGODB_URI": "mongodb+srv://hiirsh:87v7GS9XtfhmKiV@clusterjava2022.xry6qdc.mongodb.net/telran?retryWrites=true&w=majority"
+      },
+      "console": "externalTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Launch ForumServiceWithSpringSecurity",
+      "request": "launch",
+      "mainClass": "telran.java2022.ForumServiceWithSpringSecurity",
+      "projectName": "java2022",
+      "env": {
+        "MONGODB_URI": "mongodb+srv://hiirsh:87v7GS9XtfhmKiV@clusterjava2022.xry6qdc.mongodb.net/telran?retryWrites=true&w=majority"
+      },
+      "console": "externalTerminal"
+    }
+  ]
+}
