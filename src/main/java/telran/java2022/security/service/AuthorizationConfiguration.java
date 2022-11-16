@@ -17,8 +17,8 @@ public class AuthorizationConfiguration {
         .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
     http.authorizeRequests()
         .antMatchers("/account/register/**").permitAll()
-        .antMatchers("/forum/post/*").access("hasRole('USER')")
-        .antMatchers("/forum/post/*/like/**").access("hasRole('USER')")
+        .antMatchers("/forum/post/*").authenticated()
+        .antMatchers("/forum/post/*/like/**").authenticated()
         .anyRequest().authenticated();
     return http.build();
   }
